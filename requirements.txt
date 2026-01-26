@@ -1,0 +1,12 @@
+requests
+tqdm
+pypdf
+bertopic
+umap-learn
+hdbscan
+pydantic
+pydantic-settings
+fastapi
+uvicorn
+python-multipart
+pytest

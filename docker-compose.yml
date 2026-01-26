@@ -1,0 +1,35 @@
+version: '0.1'
+
+services:
+  eufarmbook_quality:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: doc_quality:latest
+    container_name: doc_quality_app
+    ports:
+      - "30600:30600"
+    
+    runtime: nvidia
+    
+    environment:
+      #- NVIDIA_VISIBLE_DEVICES=3  this is the one i was using everytime
+      - NVIDIA_VISIBLE_DEVICES=all
+      - CUDA_VISIBLE_DEVICES=0
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    
+    restart: on-failure
+    
+    volumes:
+      - ./data:/data
+    
+    networks:
+      - eufarmbook_network
+
+networks:
+  docquality_network:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: "{subnet}"
