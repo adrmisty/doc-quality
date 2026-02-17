@@ -13,6 +13,7 @@ The system is designed as a multi-stage pipeline that can be run via a **CLI** f
    - Performs strict file signature checks to reject masked binary/video files.
    - Analyzes text density, page count, and metadata integrity.
    - Assigns a quality score to every document.
+      --> this structural analysis depends on typology-based criteria (practice abstracts & policy briefs, project deliverables & reports, promotional content & newsletters, or scientific/technical papers).
 3. **Metadata extractor**: Interface for external LLM-based metadata extraction (title, summary, keywords, topics).
 4. **Topic modeling**: Implements **BERTopic**, with **UMAP** and **HDBSCAN**, model to generate semantic clusters from the validated dataset.
 
