@@ -1,0 +1,53 @@
+Notes taken from the documents observed in the manual evaluation. Note that some documents are not in English so the keywords and such
+found directly in the document are direct translations of what is in the document. When we extract metadata, it is all extracted
+in English (#TODO: so we could get these keywords' translations?)
+
+- Practice abstracts: 
+    (short documents with less visuals and more of a textual structure)
+    - abstracts
+    - policy briefs
+    HEURISTIC: few pages, title/subtitle keywords like policy brief, practice abstract, recommendations
+    NOTES:
+    contain words like practice abstract, practical, solution, factsheet, recommendations, solution, problem, outcome, topic, keywords, context, roadmap...
+    found a common 'about this abstract'/'about {project name}' section as well in some documents. they also usually show a grid of logos of partners/partnerships or a list with their partners. depends on whether it is a study abstract, because they might also have methodology/conclusion sections.
+    not a lot of text, organized around the page in short sections. 1-2-3 pages (preferably more than 1? and at most 4? but cannot realy reject a doc of one page). they also usually have a sentence at the end
+    explaining that the Project has received funding from the European Union's (whatever framework: e.g. Horizon 2020) under a given grant agreement.
+    policy briefs have a similar structure to practice abstract only that they contain the 'policy brief' title and can also have recommendations. another keyword is 'for more information'/'more info'/'further information'
+
+- Promotional: 
+    (short documents w lots of artifacts)
+    - brochure, flyer
+    - factsheet
+    - press releases and newsletters
+    HEURISTIC: few pages, images, contact info, specific promotional language
+    NOTES: contain news-related words (newsletter, news, 'boletín' in Spanish, kick-off, meeting, seminar, highlights)... 2-3 pages. also has the funding sentence at the end.
+
+- Project structures: 
+    (long documents, fancy cover page, table of contents, less academic)
+    - reports: deliverables, milestones
+    - books: guides, handbooks, manuals, tutorials, booklets
+    HEURISTIC: lots of pages, tables of contents, specifics like 'deliverable'
+    NOTES:
+        you can have very short training modules/tutorials with short instructions/steps on how to use a given task. 
+        Booklets have many pages, around 30, have a table of contents, artifacts, lot of text...
+        on the other hand you can find very technical and structured reports of 100+ pages with a huge table of contents and with a science paper-like structure.
+        project deliverables have the 'deliverable' keyword and specify due/submission/start dates of the project, duration, have 'objectives'/'motivation' and related sections and also comprise figures
+        and a lot of text (6-25 pages). important keywords are 'version', 'acronym', 'conceptual framework', 'guidelines', 'report'
+        educational materials and project summaries have a similar structure to reports only that much much shorter (less than 10 pages)
+        you can also find structured deliverables that are a collection of practice abstracts, as per the table of contents
+        guides have the 'guide' 'best practice' keywords
+
+- Scientific/technical publications:
+    (academic, high avg. char count per page, 2-col layouts, specific sections, citations, bibliography)
+    - journal articles
+    - articles in conference proceedings
+    - chapters in edited volumes
+    - thesis
+    - review documents
+    - tech articles
+    HEURISTIC: text density, specific sections titled under abstract, intro, references, bibliography, methodology
+
+- Others (unsupported): 
+    NOTES:
+    images requiring OCR and with artifacts/images, not enough text, more like flyers or super short practice abstracts
+    documents comprising just tables with super short text are not validated
